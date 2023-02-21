@@ -1,0 +1,11 @@
+# In order to run this script, get the raw text URL wherever this is hosted, and update the below url as required, then execute the line in powershell.
+# START https://boxstarter.org/package/nr/url?https://url/to/raw/text/location
+
+# set the windows explorer options to show hidden files, show protected files and always show file extensions.
+Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
+# self explanatory
+Enable-RemoteDesktop
+
+# list of things that need to be installed.
+choco install vlc
