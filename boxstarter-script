@@ -2,10 +2,12 @@
 # START https://boxstarter.org/package/nr/url?https://url/to/raw/text/location
 
 # set the windows explorer options to show hidden files, show protected files and always show file extensions.
-Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -EnableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder
 
 # self explanatory
 Enable-RemoteDesktop
+
+Disable-GameBarTips
 
 # list of things that need to be installed.
 choco install vlc
