@@ -19,3 +19,4 @@ choco install firefox -y
 choco install sublimetext4 -y
 choco install cyberduck -y
 choco install dbeaver -y
+choco install 7zip -y
