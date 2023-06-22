@@ -21,3 +21,4 @@ choco install cyberduck -y
 choco install dbeaver -y
 choco install 7zip -y
 choco install scrcpy -y
+choco install gimp -y
