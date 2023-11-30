@@ -24,3 +24,4 @@ choco install scrcpy -y
 choco install gimp -y
 choco install powertoys -y
 choco install everything -y
+choco install drawio -y
