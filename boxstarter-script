@@ -25,3 +25,4 @@ choco install gimp -y
 choco install powertoys -y
 choco install everything -y
 choco install drawio -y
+choco install kdeconnect-kde -y
